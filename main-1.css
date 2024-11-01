@@ -1,0 +1,236 @@
+
+            /*Main1*/
+            .course-section {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                background-color: #f5f5f5;
+                padding: 100px;
+            }
+
+            .course-content {
+                width: 50%;
+            }
+
+            .course-content h2 {
+                font-size: 36px;
+                font-family: 'Georgia', serif;
+                margin-bottom: 20px;
+            }
+
+            .course-content p {
+                font-size: 14px;
+                color: #666;
+                margin-bottom: 10px;
+            }
+
+            .course-awards {
+                display: flex;
+                gap: 20px;
+                margin-bottom: 20px;
+            }
+
+            .course-awards img {
+                width: 50px;
+                height: auto;
+            }
+
+            .course-button {
+                background-color: #e94c4c;
+                color: white;
+                padding: 10px 20px;
+                font-size: 16px;
+                text-transform: uppercase;
+                border: none;
+                cursor: pointer;
+            }
+
+            .course-images {
+                
+                display: grid;
+                grid-template-columns: repeat(2, 1fr);
+                gap: 7px;
+            }
+
+            .course-images img {
+                width: 100%;
+                height: auto;
+                object-fit: cover;
+            }
+			/*Main2*/
+            .container {
+                width: 100%;
+                max-width: 1600px;
+                background-color: rgb(101, 200, 101);
+                padding: 100px;
+                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+               
+            }
+            .header2 {
+                background-color: white;
+                padding: 30px;
+                border-bottom: 1px solid #ddd;
+                text-align: center;
+            }
+
+            .logo2 {
+                width: 100px;
+                margin-bottom: 20px;
+            }
+
+            h1 {
+                font-size: 2rem;
+                color: #333;
+                margin-bottom: 40px;
+            }
+
+            /* Category Grid Styles */
+            .course-categories {
+                margin-top: 30px;
+            }
+
+            .category-grid {
+                display: grid;
+                grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+                gap: 50px;
+            }
+
+            .category-card {
+                background-color: white;
+                border-radius: 10px;
+                padding: 20px;
+                text-align: center;
+                transition: transform 0.3s ease;
+                box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                color: #333;
+        }
+
+            .category-card:hover {
+                transform: translateY(-5px);
+            }
+
+            .category-card .icon {
+                width: 60px;
+                height: 60px;
+                margin-bottom: 10px;
+            }
+
+            .it { background: url('it-icon.png') no-repeat center center / contain; }
+            .health { background: url('health-icon.png') no-repeat center center / contain; }
+            .language { background: url('language-icon.png') no-repeat center center / contain; }
+            .business { background: url('business-icon.png') no-repeat center center / contain; }
+            .management { background: url('management-icon.png') no-repeat center center / contain; }
+            .english { background: url('english-icon.png') no-repeat center center / contain; }
+            .personal-development { background: url('personal-development-icon.png') no-repeat center center / contain; }
+            .sales-marketing { background: url('sales-marketing-icon.png') no-repeat center center / contain; }
+            .engineering { background: url('engineering-icon.png') no-repeat center center / contain; }
+            .teaching { background: url('teaching-icon.png') no-repeat center center / contain; }
+
+        p {
+            font-size: 1.2rem;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+
+        span {
+            color: #666;
+        }
+		/*Main 3*/
+        .carousel-container {
+            position: relative;
+            width: 80%;
+            margin: 0 auto;
+            overflow: hidden;
+        }
+
+        .carousel {
+            display: flex;
+            justify-content: center; 
+            align-items: center;
+            transition: transform 0.4s ease-in-out;
+        }
+
+        .card {
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            margin: 10px;
+            padding: 20px;
+            flex: 0 0 250px;
+            text-align: left;
+        }
+
+        .card img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+
+        .card h3 {
+            font-size: 1.2rem;
+            margin: 10px 0;
+            color: #555;
+        }
+
+        .card p {
+
+            font-size: 1rem;
+            color: #777;
+            margin-bottom: 15px;
+        }
+
+        .info {
+            display: flex;
+            justify-content: space-between;
+            font-size: 0.9rem;
+            color: #777;
+            margin-bottom: 10px;
+        }
+
+        .info-btn, .learn-btn {
+            width: 100%;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 1rem;
+            margin-top: 10px;
+        }
+
+        .info-btn {
+            background-color: #f0f0f0;
+        }
+
+        .learn-btn {
+            background-color: #28a745;
+            color: white;
+        }
+
+        .learn-btn:hover {
+            background-color: #218838;
+        }
+
+        .carousel-btn {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            background-color: #fff;
+            border: none;
+            padding: 10px;
+            border-radius: 50%;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            cursor: pointer;
+            z-index: 10; 
+    }
+
+        .prev-btn {
+            left: 10px; 
+    }
+
+        .next-btn {
+            right: 10px; 
+    }
+    

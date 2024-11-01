@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Auteur Header</title>
+        <style>
+            /*Reset CSS*/
+            *{
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+            }
+            /*Body*/
+            body{
+                font-family: 'Times New Roman',sans-serif;
+            }
+            /*Header*/
+            .header{
+                background-color: white;
+                padding: 20px;
+                border-bottom: 1px solid #ddd;
+            }
+            .header-container{
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                max-width: 1200px;
+                margin: 0 auto;
+            }
+            /*Menu Icon*/
+            .menu-icon span{
+                font-size: 24px;
+                cursor: pointer;
+            }
+            /*Navigation Menu*/
+            .nav-menu ul{
+                list-style: none;
+                display: flex;
+                gap:20px;
+            }
+            .nav-menu ul li{
+                position: relative;
+            }
+            .nav-menu ul li a{
+                text-decoration: none;
+                color: #333;
+                font-size: 16px;
+                font-weight: bold;
+            }
+            .nav-menu ul li a:hover{
+                border-bottom: 2px solid #000;
+            }
+            /* Logo */
+            .logo {
+            text-align: center;
+            }
+
+            .logo h1 {
+                 font-size: 28px;
+                font-family: 'Georgia', serif;
+                margin-bottom: 5px;
+            }
+
+            .logo p {
+               font-size: 12px;
+                color: #666;
+            }
+
+            /* Header Icons */
+            .header-icons a {
+                margin-left: 15px;
+                position: relative;
+            }
+
+            .header-icons img {
+                 width: 20px;
+                height: 20px;
+            }
+
+            .cart-count {
+                background-color: red;
+                color: white;
+                font-size: 12px;
+                border-radius: 50%;
+                padding: 2px 6px;
+                position: absolute;
+                top: -5px;
+                right: -10px;
+            }
+            
+        </style>
+    </head>
+    <body>
+        <!--Header-->
+        <header class="header">
+            <div class="header-container">
+                <div class="menu-icon">
+                    <span>&#9776;</span>
+                </div>
+                <nav class="nav-menu">
+                    <ul>
+                        <li><a href="#">HOMES &#9662;</a></li>
+                        <li><a href="#">FEATURES &#9662;</a></li>
+                        <li><a href="#">PAGES &#9662;</a></li>
+                    </ul>
+                </nav>
+                <div class="logo">
+                    <h1>AUTEUR</h1>
+                    <p>Author & Writer</p>
+                </div>
+                <nav class="nav-menu">
+                    <ul>
+                        <li><a href="#">SHOP &#9662;</a></li>
+                        <li><a href="#">EVENT</a></li>
+                        <li><a href="#">BLOG &#9662;</a></li>
+                    </ul>
+                </nav>
+                <div class="header-icons">
+                    <a href="#"><img src="D:\K23CDTI\thietkeweb\BaiTapLon\img\tải xuống.png" alt="Search"></a>
+                    <a href="#"><img src="D:\K23CDTI\thietkeweb\BaiTapLon\img\tải xuống (1).png" alt="Cart"><span class="cart-count">0</span></a>
+                    <a href="#"><img src="D:\K23CDTI\thietkeweb\BaiTapLon\img\tải xuống (2).png" alt="User"></a>
+                </div>
+            </div>
+        </header>
+    </body>
+</html>
